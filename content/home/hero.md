@@ -4,7 +4,7 @@ widget = "hero_img"  # Do not modify this line!
 active = true
 date = 2017-10-15
 
-title = "About ECOSTAB"
+title = "ECOSTAB Project"
 
 # Order that this section will appear in.
 weight = 10
@@ -22,8 +22,12 @@ weight = 10
 #   Activate the button by specifying a URL and button label below.
 #   Deactivate by commenting out parameters, prefixing lines with `#`.
 [cta]
-  url = "/docs/"
+  url = "/project/"
   label = '<i class="fas fa-download"></i> Go to the project documentation'
 +++
 
-This is the website of the ECOSTAB project (under construction)
+New insights on the links between global changes, community
+structure and ecosystem stability.
+<!--# – est un projet de recherche collaborative,-->
+<!--#financé par l’ANR (2018-2021, ANR- 17-CE32-0002). Il rassemble trois-->
+<!--#laboratoires partenaires: IEES, CESCO et CEREEP.-->

@@ -6,7 +6,7 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://ecostab.github.io/website/"
+baseurl = "https://ecostab.github.io/"
 
 # Title of your site
 title = "ECOSTAB"
@@ -60,19 +60,15 @@ enableGitInfo = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  #  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "IEES", url = "" }, { name = "CESCO", url = "" }, { name = "CEREEP", url = "" } ]
 
   #  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   #  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
-  email = "test@example.org"
-  #  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  #  office_hours = """
-  #  Monday 10:00 to 13:00<br>
-  #  Wednesday 09:00 to 10:00<br>
-  #  Otherwise email to book an appointment
-  #  """
+  email = "elisa.thebault@upmc.fr"
+  address = "Building 45-46 Room #, Sorbonne Universités, Paris, 75005, France"
+    office_hours = "Email to book an appointment"
   #  phone = "888 888 88 88"
   #  skype = "echo123"
   #  telegram = ""
@@ -83,7 +79,7 @@ enableGitInfo = false
 
   # Discussion link (e.g. link to a forum, mailing list, or chat).
   #   Uncomment line below to use.
-  discussion = { name = "Ask a question", url = "https://discourse.gohugo.io" }
+  #discussion = { name = "Ask a question", url = "https://discourse.gohugo.io" }
 
   # Enable/disable map in Contact widget.
   # To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
@@ -100,10 +96,10 @@ enableGitInfo = false
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  map = 0
+  map = 2
   map_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
+  latitude = "48.84635" 
+  longitude = "2.35592"
   zoom = 15
 
   # SITE SETUP
@@ -263,10 +259,10 @@ enableGitInfo = false
   #
   #   Full list: https://jpswalsh.github.io/academicons/
 
-  #  [[params.social]]
-  #    icon = "envelope"
-  #    icon_pack = "fas"
-  #    link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+    [[params.social]]
+      icon = "envelope"
+      icon_pack = "fas"
+      link = "#contact"  # For a direct email link, use "mailto:test@example.org".
   #
   #  [[params.social]]
   #    icon = "twitter"
@@ -278,10 +274,10 @@ enableGitInfo = false
   #    icon_pack = "ai"
   #    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
   #
-  #  [[params.social]]
-  #    icon = "github"
-  #    icon_pack = "fab"
-  #    link = "https://github.com/gcushen"
+    [[params.social]]
+      icon = "github"
+      icon_pack = "fab"
+      link = "https://github.com/ecostab"
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -296,21 +292,21 @@ enableGitInfo = false
 #   The weight parameter defines the order that the links will appear in.
 [params.menus]
   # Align the main menu to the right of the page? (true/false)
-  align_right = false
+  align_right = true 
 
 [[menu.main]]
   name = "Home"
   url = "/#top"
   weight = 10
 
-[[menu.main]]
-  name = "Blog"
-  url = "/#posts"
-  weight = 20
+#[[menu.main]]
+  #name = "Blog"
+  #url = "/#posts"
+  #weight = 20
 
 [[menu.main]]
-  name = "Documentation"
-  url = "docs/"
+  name = "Projects"
+  url = "project/"
   weight = 30
 
 [[menu.main]]
@@ -318,11 +314,11 @@ enableGitInfo = false
   url = "/#contact"
   weight = 40
 
-[[menu.main_right]]
-  name = "<i class=\"fab fa-github-alt\" style=\"font-size: 1rem; line-height: 1.25\"></i>"
-  post = ""
-  url = "https://github.com/sourcethemes/project-kickstart-r"
-  weight = 50
+#[[menu.main_right]]
+  #name = "<i class=\"fab fa-github-alt\" style=\"font-size: 1rem; line-height: 1.25\"></i>"
+  #post = ""
+  #url = "https://github.com/sourcethemes/project-kickstart-r"
+  #weight = 50
 
 
 # Search.
