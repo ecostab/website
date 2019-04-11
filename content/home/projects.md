@@ -1,6 +1,7 @@
 +++
 # Projects widget.
 widget = "projects"  # Do not modify this line!
+headless = true  # This file represents a page section.
 active = true 
 date = 2016-04-20T00:00:00
 

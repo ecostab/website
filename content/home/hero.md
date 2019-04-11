@@ -1,6 +1,7 @@
 +++
 # Hero widget.
 widget = "hero_img"  # Do not modify this line!
+headless = true  # This file represents a page section.
 active = true
 date = 2017-10-15
 

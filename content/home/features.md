@@ -1,5 +1,6 @@
 +++
 widget = "featurette"  # Do not modify this line!
+headless = true  # This file represents a page section.
 active = false 
 date = "2017-11-21"
 

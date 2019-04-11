@@ -2,6 +2,7 @@
 # Recent and Upcoming Talks widget.
 widget = "talks"
 active = false 
+headless = true  # This file represents a page section.
 date = 2016-04-20T00:00:00
 
 title = "Recent & Upcoming Talks"
