@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true
 date = 2017-10-15
 
-title = "ECOSTAB Project"
+title = "ECOSTAB"
 
 # Order that this section will appear in.
 weight = 10
@@ -28,7 +28,6 @@ weight = 10
 +++
 
 New insights on the links between global changes, community
-structure and ecosystem stability.
-<!--# – est un projet de recherche collaborative,-->
-<!--#financé par l’ANR (2018-2021, ANR- 17-CE32-0002). Il rassemble trois-->
-<!--#laboratoires partenaires: IEES, CESCO et CEREEP.-->
+structure and ecosystem stability. A collaborative research project funded by
+the ANR (2018-2021, ANR- 17-CE32-0002), including three laboratories (IEES,
+CESCO and CEREEP). 
